@@ -1,0 +1,235 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   text-decoration: none;
+}
+/*home page starts here*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(2rem);
+    
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5.1rem;
+    background-color: rgba(0,0,0,.1);
+    
+    text-align: center;
+}
+.txtbottom{
+    padding-top: 20px;
+    color: rgb(255, 255, 255, 0.7);
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.indexnavul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 33rem;
+    padding-top: 20px;
+    
+    
+}
+
+.indexnavtxt{
+    font-size: 1.3rem;
+    color: white;
+    padding: 0 rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: opacity .2s;
+    
+}
+
+.indexnavtxt:hover{
+    opacity: .6;
+}
+
+.mainbg{
+    
+    background-size: 50% ;
+
+}
+
+.musicam{
+    display: flex;
+    padding-top: 20px;
+}
+
+
+.musicam .photo img{
+    max-width: 100%;
+    
+    transition: transform 1.5s;
+}
+
+.musicam .photo:hover img{
+    transform: scale(1.3);
+}
+
+
+/*home page ends here*/
+
+body{
+    display: flex;
+    background-image: url("./background.jpg");
+    background-size: 100%;
+    position: relative;
+    
+}
+
+.navformusic{
+    width: 1250px;
+   /* background-color: #882;*/
+   background-color: rgba(255, 255, 255, 0.6);
+    font-size: 1.4rem;
+    padding-left: 35px;
+    padding-top: 70px;
+    margin-left: 30px;
+}
+
+.navmusicmargin{
+    margin-top: 4.4rem;
+}
+
+.txtnavmusic{
+    
+    color: #fff;
+    transition: opacity 0.2s;
+    transition: all 0.2s;
+    border-bottom: 2px solid rgba(222,255,255,0.1);
+}
+
+.txtnavmusic:hover{
+    opacity: .4;
+    color: black;
+    
+}
+.musicpad{
+    margin: 10px 10px;
+}
+
+.musiccontenttxt{
+    margin-top: 3rem;
+}
+
+.musiccontent{
+    padding-left: 14px;
+    padding-right: 14px;
+    
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-top: 50px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 7px;
+}
+
+
+.half{
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-top: 50px;
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 7px;
+    
+}
+
+.musicspace{
+    width: 1000px;
+}
+
+/*music production ends*/
+
+/*contact us starts here*/
+
+
+.contactus{
+    text-align: center;
+    margin-left: 41%;
+    margin-top: 8rem;
+    color:white;
+    font-size: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+
+}
+
+.logoforsharma img{
+    transition: transform 1.2s;
+}
+
+.logoforsharma img:hover {
+    transform: scale(1.5);
+}
+
+
+.logoformathur img{
+    transition: transform 1.2s;
+}
+
+.logoformathur img:hover {
+    transform: scale(1.5);
+}
+
+
+
+/*contact us ends here*/
+
+/*about us starts here*/
+
+.aboutus{
+    color: #fff;
+    text-align: center;
+}
+
+  
+.about-section {
+    display: flex;
+    
+    color: white;
+}
+  
+.title {
+    color:gray;
+}
+  
+.sharma{
+    padding-top: 9rem;
+    padding-left: 12rem;
+
+}
+
+.mathur{
+    padding-top: 9rem;
+    padding-right: 12rem;
+    text-align: right;
+
+}
+ 
+.container img{
+    opacity: 80%;
+}
+
+/*about is ends here*/
+
+/*ask us starts here*/
+
+.form{
+    padding-top: 270px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+
+/*ask us ends here*/
